@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<section class="vh-100" style="background-color: #9de2ff;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-md-9 col-lg-7 col-xl-5">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-4">
+                        <div class="d-flex text-black">
+                            <div class="flex-shrink-0">
+                              @*  <img src="~/css/hat.jpg" alt="Image" class="img-fluid" style="width: 180px; border-radius: 10px;" />*@
+                                <img src="https://banner2.cleanpng.com/20180319/rlq/kisspng-computer-icons-user-profile-avatar-profile-transparent-png-5ab03f3def8981.4074689915214999659812.jpg"
+                                     alt="Image" class="img-fluid" style="width: 200px; border-radius: 10px;" />
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Name : @TempData["Name"]</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
